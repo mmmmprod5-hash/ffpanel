@@ -1,0 +1,18 @@
+Salida en `dist/`. Fírmala con Sideloadly o Azule.
+
+## Panel
+
+Botón naranja flotante y arrastrable dentro del juego. Abre el panel con toggles.
+EOF
+
+cat > .gitignore <<'EOF'
+.theos/
+packages/
+dist/
+*.deb
+EOF
+
+cd ..
+echo
+echo "proyecto en ./$DIR"
+echo "siguiente: rellena CONFIGURA AQUÍ en $DIR/Tweak.xm y ejecuta $DIR/build.sh <ipa>"
