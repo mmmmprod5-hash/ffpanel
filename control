@@ -1,0 +1,9 @@
+Package: com.venice.ffmenu
+Name: FF Menu
+Version: 0.1
+Architecture: iphoneos-arm
+Description: panel holograma + aim
+Maintainer: tu
+Author: tu
+Section: Tweaks
+Depends: mobilesubstrate
